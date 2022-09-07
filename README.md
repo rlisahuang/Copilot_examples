@@ -16,7 +16,7 @@ Best examples to look at:
       - Projection Boxes can help programmers recognize if code does as they intended
       - In this example, the first few chunks of code written by Copilot did not give the intended results
       
-2. re (regular expressions) -> understanding imports  
+2. re (regular expressions) -> understanding imports/ regular expressions  
  In re_import.py file:
      1. def isPhoneNumer(): Example of Copilot helping to write RegExp
        - Copilot's first few attempts did not pass all the test cases
