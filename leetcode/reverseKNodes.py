@@ -54,3 +54,7 @@ class Solution:
             p = nex
         return tail, head
     
+#call the function
+head = [1,2,3,4,5]
+k = 2
+print(Solution().reverseKGroup(head, k)) 
