@@ -43,7 +43,7 @@ def fetch_data(url):
 def plot(ts, highs):
     # plot ts (x) and highs (y)
     plt.plot(ts, highs)
-    plt.show()
+    # plt.show()
 
 
 def main():

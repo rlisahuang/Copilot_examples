@@ -4,9 +4,9 @@ https://stackoverflow.com/questions/28931224/how-to-add-value-labels-on-a-bar-ch
 How to add value labels on a bar chart?
 '''
 #------Original Code Snippet From StackOverflow-----
-import numpy as np
+# import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # Bring some raw data.
 frequencies = [6, 16, 75, 160, 244, 260, 145, 73, 16, 4, 1]
@@ -32,7 +32,7 @@ fig.set_xticklabels(x_labels)
 for i, v in enumerate(freq_series):
     fig.text(i, v, str(v), color='black', ha='center')
 
-plt.show()
+# plt.show() # WE CANNOT HAVE THIS IN THE CODE, OTHERWISE THE PLOT POPS UP
 
 '''
 Failed Examples That Copilot Wrote:
